@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+supabase
+anthropic
+apscheduler
+africastalking
+python-dotenv
+pydantic
+
+# only needed when DEMO_MODE=false
+# supabase
+# anthropic
+# africastalking
