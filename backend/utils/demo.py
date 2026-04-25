@@ -1,6 +1,6 @@
 import os
 
-DEMO_MODE = os.getenv("DEMO_MODE", "true").lower() == "true"
+DEMO_MODE = os.getenv("DEMO_MODE", "false").lower() == "true"
 
 def demo_log(label: str, payload: dict):
     if DEMO_MODE:

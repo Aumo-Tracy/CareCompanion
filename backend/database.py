@@ -1,4 +1,7 @@
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 from utils.demo import DEMO_MODE
 
 if DEMO_MODE:
